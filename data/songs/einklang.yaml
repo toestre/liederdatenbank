@@ -1,22 +1,22 @@
 - nummer: 1
   titel: "Danket dem Herrn!"
-  links: []
+  links: [https://www.youtube.com/watch?v=KH5RM0d2298&list=RDKH5RM0d2298&start_radio=1]
 
 - nummer: 2
   titel: "Lobe den Herrn, meine Seele"
-  links: []
+  links: [https://www.youtube.com/watch?v=6zslgTDwpmU&list=RD6zslgTDwpmU&start_radio=1]
 
 - nummer: 3
   titel: "Dankt unserm Gott"
-  links: []
+  links: [https://www.youtube.com/watch?v=HhFM0p_j4yM&list=RDHhFM0p_j4yM&start_radio=1,https://www.youtube.com/watch?v=8sWr3hRSjiQ&list=RD8sWr3hRSjiQ&start_radio=1]
 
 - nummer: 4
   titel: "Lobt den Herrn für Seine große Güte"
-  links: []
+  links: [https://www.youtube.com/watch?v=4hIzi9H8VTY&list=RD4hIzi9H8VTY&start_radio=1]
 
 - nummer: 5
   titel: "Kommt, preist und lobet unsern Gott"
-  links: []
+  links: [https://github.com/toestre/liederdatenbank/edit/main/data/songs/einklang.yaml]
 
 - nummer: 6
   titel: "Stimmt zu Gottes Ehre froh ein Loblied an!"
@@ -200,7 +200,7 @@
 
 - nummer: 51
   titel: "Freudig preisen wir, Herr Jesus"
-  links: []
+  links: [https://www.youtube.com/watch?v=sCWwm5reGzg&list=RDsCWwm5reGzg&start_radio=1]
 
 - nummer: 52
   titel: "Preis und Anbetung"
@@ -588,7 +588,7 @@
 
 - nummer: 149
   titel: "Philipper-Hymnus"
-  links: []
+  links: [https://www.youtube.com/watch?v=ZDXj4AurIoU&list=PL_cslXkouawX9jXe3KYiZhcRlGkkI_5VA&index=7]
 
 - nummer: 150
   titel: "Herr Jesus, wir erheben Dich"
@@ -624,7 +624,7 @@
 
 - nummer: 158
   titel: "Christus hält mich fest"
-  links: []
+  links: [https://github.com/toestre/liederdatenbank/edit/main/data/songs/einklang.yaml]
 
 - nummer: 159
   titel: "Welche Liebe! Jesus betet"
@@ -696,7 +696,7 @@
 
 - nummer: 176
   titel: "Gnade ist mehr"
-  links: []
+  links: [https://www.youtube.com/watch?v=hf4q1PxxZqM&list=PL_cslXkouawX9jXe3KYiZhcRlGkkI_5VA&index=9]
 
 - nummer: 177
   titel: "Wo ist unsre Sünd geblieben?"
@@ -732,27 +732,27 @@
 
 - nummer: 185
   titel: "Gnade, die Jesus uns zugewandt"
-  links: []
+  links: [https://www.youtube.com/watch?v=SO2NTq3-wys&list=RDSO2NTq3-wys&start_radio=1]
 
 - nummer: 186
   titel: "Von Gottes Gnade singe ich"
-  links: []
+  links: [https://www.youtube.com/watch?v=Z5ZtfJRuVG0&list=PL_cslXkouawX9jXe3KYiZhcRlGkkI_5VA&index=15]
 
 - nummer: 187
   titel: "Christi Blut und Gerechtigkeit"
-  links: []
+  links: [https://www.youtube.com/watch?v=7ppgJr_Uy7w&list=RD7ppgJr_Uy7w&start_radio=1]
 
 - nummer: 188
   titel: "Ich bete an die Macht der Liebe"
-  links: []
+  links: [https://www.youtube.com/watch?v=S78d1VD7KRM&list=RDS78d1VD7KRM&start_radio=1]
 
 - nummer: 189
   titel: "Liebe, die für mich gelitten"
-  links: []
+  links: [https://www.youtube.com/watch?v=SRBwWpfEQpk&list=RDSRBwWpfEQpk&start_radio=1]
 
 - nummer: 190
   titel: "Für mich gingst Du nach Golgatha"
-  links: []
+  links: [https://www.youtube.com/watch?v=hODMjQINxJQ&list=RDhODMjQINxJQ&start_radio=1]
 
 - nummer: 192
   titel: "Abba, Vater! Dir wir nahen"
@@ -780,11 +780,11 @@
 
 - nummer: 198
   titel: "O, die tiefe Liebe Jesu"
-  links: []
+  links: [https://github.com/toestre/liederdatenbank/edit/main/data/songs/einklang.yaml]
 
 - nummer: 199
   titel: "Gott ist die Liebe"
-  links: []
+  links: [https://www.youtube.com/watch?v=MhgS7oYyiFQ&list=RDMhgS7oYyiFQ&start_radio=1]
 
 - nummer: 200
   titel: "Alles ist bezahlt"
@@ -832,43 +832,43 @@
 
 - nummer: 211
   titel: "Schau ich zu Deinem Kreuze hin"
-  links: []
+  links: [https://www.youtube.com/watch?v=LWsYQKm_tWM&list=RDLWsYQKm_tWM&start_radio=1]
 
 - nummer: 212
   titel: "Seh ich Dein Kreuz"
-  links: []
+  links: [https://www.youtube.com/watch?v=U1u29UPl9XY&list=RDU1u29UPl9XY&start_radio=1]
 
 - nummer: 213
   titel: "Nun gehören unsre Herzen"
-  links: []
+  links: [https://www.youtube.com/watch?v=-qRgi7I-758&list=RD-qRgi7I-758&start_radio=1]
 
 - nummer: 214
   titel: "Hab geglaubt und darum sing ich"
-  links: []
+  links: [https://www.youtube.com/watch?v=cbOPJ5kiIhA&list=RDcbOPJ5kiIhA&start_radio=1]
 
 - nummer: 215
   titel: "Herr, ich hör so viele sagen"
-  links: []
+  links: [https://www.youtube.com/watch?v=pLNlRfyqwWI&list=RDpLNlRfyqwWI&start_radio=1]
 
 - nummer: 216
   titel: "Ewig soll Er mir vor Augen stehen"
-  links: []
+  links: [https://www.youtube.com/watch?v=A9kNlhc6ZiE&list=RDA9kNlhc6ZiE&start_radio=1]
 
 - nummer: 217
   titel: "Du hast mich, o Herr, errettet"
-  links: []
+  links: [https://www.youtube.com/watch?v=ygfyBZ3khro&list=RDygfyBZ3khro&start_radio=1]
 
 - nummer: 218
   titel: "Christus ist mein Herr"
-  links: []
+  links: [https://www.youtube.com/watch?v=4EpJlg0-tw4&list=RD4EpJlg0-tw4&start_radio=1]
 
 - nummer: 219
   titel: "Du, Herr, hast unsre Schuld gesühnt"
-  links: []
+  links: [https://www.youtube.com/watch?v=70fTcno-4n4&list=RD70fTcno-4n4&start_radio=1]
 
 - nummer: 220
   titel: "Herr Jesus, Du gingst den Weg"
-  links: []
+  links: [https://www.youtube.com/watch?v=MiAl2-MqiP8&list=RDMiAl2-MqiP8&start_radio=1]
 
 - nummer: 221
   titel: "Jesus, Dir nach, weil Du rufst!"
@@ -900,7 +900,7 @@
 
 - nummer: 228
   titel: "Schritte in Gottes Spuren"
-  links: []
+  links: [https://www.youtube.com/watch?v=3AcD7P6F-Dc&list=PL_cslXkouawX9jXe3KYiZhcRlGkkI_5VA&index=12]
 
 - nummer: 229
   titel: "Wohl dem, der nicht wandelt"
@@ -1036,7 +1036,7 @@
 
 - nummer: 262
   titel: "Jesus, Mitte meines Lebens"
-  links: []
+  links: [https://www.youtube.com/watch?v=VQ8aB8W1YNE&list=PL_cslXkouawX9jXe3KYiZhcRlGkkI_5VA&index=8]
 
 - nummer: 263
   titel: "Du bist des Herzens wahre Freude"
@@ -1100,7 +1100,7 @@
 
 - nummer: 278
   titel: "Du bist die Kraft, die mir oft fehlt"
-  links: []
+  links: [https://www.youtube.com/watch?v=5XeMAEgxGGE&list=RD5XeMAEgxGGE&start_radio=1]
 
 - nummer: 279
   titel: "Herr, Du gibst uns Hoffnung"
@@ -1144,7 +1144,7 @@
 
 - nummer: 289
   titel: "Im Glauben leben"
-  links: []
+  links: [https://github.com/toestre/liederdatenbank/edit/main/data/songs/einklang.yaml]
 
 - nummer: 290
   titel: "Ein feste Burg ist unser Gott"
@@ -1256,7 +1256,7 @@
 
 - nummer: 318
   titel: "Sei stille dem Herrn"
-  links: []
+  links: [https://www.youtube.com/watch?v=hZM6PmF-Alo&list=RDhZM6PmF-Alo&start_radio=1]
 
 - nummer: 319
   titel: "Lass Du mich stille werden"
@@ -1420,7 +1420,7 @@
 
 - nummer: 359
   titel: "Aber meine Worte bleiben bestehn"
-  links: []
+  links: [https://github.com/toestre/liederdatenbank/edit/main/data/songs/einklang.yaml]
 
 - nummer: 360
   titel: "Durch Dein Wort"
@@ -1536,7 +1536,7 @@
 
 - nummer: 388
   titel: "Dir allein die Ehre"
-  links: []
+  links: [https://www.youtube.com/watch?v=Pfr9Somabqc&list=PL_cslXkouawX9jXe3KYiZhcRlGkkI_5VA&index=14]
 
 - nummer: 389
   titel: "Ein jeder trage die Last des andern"
