@@ -1,0 +1,36 @@
+- nummer: 1
+  titel: "Großer Gott, wir loben dich"
+  alternative_nummer: 1
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+      geprueft: true
+
+- nummer: 3
+  titel: "Lobe den Herren, den mächtigen König der Ehren"
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+      geprueft: false
+
+- nummer: 7
+  titel: "In dir ist Freude"
+  links:
+    - typ: bandcamp
+      url: https://example.bandcamp.com/track/placeholder
+      geprueft: true
+
+- nummer: 8
+  titel: "Vertraut den neuen Wegen"
+  links: []
+
+- nummer: 9
+  titel: "Erd und Himmel sollen singen"
+  links:
+    - typ: tidal
+      url: https://tidal.com/browse/track/placeholder
+      geprueft: false
+
+- nummer: 10
+  titel: "Bewahre uns, Gott"
+  links: []

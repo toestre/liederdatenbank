@@ -1,0 +1,10 @@
+- id: einklang
+  titel: "Einklang"
+  beschreibung: "Gesangbuch mit über 400 Liedern, vierstimmigem Notensatz und Gitarrengriffen"
+
+- id: gemeindeheft
+  titel: "Unser Gemeindeheft"
+
+- id: loseblatt-2025
+  titel: "Loseblattsammlung 2025"
+  typ: loseblatt

@@ -1,0 +1,32 @@
+- nummer: 1
+  titel: "Sonne der Gerechtigkeit"
+  links: []
+
+- nummer: 2
+  titel: "Dein Wort ist wie Licht in der Nacht"
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+      geprueft: false
+
+- nummer: 3
+  titel: "Meine Zeit steht in deinen Händen"
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+      geprueft: true
+
+- nummer: 4
+  titel: "Weit, weit weg von hier"
+  links:
+    - typ: andere
+      url: https://example.org/audio/placeholder
+      geprueft: true
+
+- nummer: 5
+  titel: "Wie soll ich dich empfangen"
+  links: []
+
+- nummer: 6
+  titel: "Großer Gott, wir loben dich"
+  links: []

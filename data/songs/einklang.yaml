@@ -1,0 +1,40 @@
+- nummer: 1
+  titel: "Großer Gott, wir loben dich"
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+      geprueft: true
+      bemerkung: "Platzhalter – gute Orgel-Aufnahme"
+
+- nummer: 2
+  titel: "Lobe den Herren, den mächtigen König der Ehren"
+  alternative_nummer: 3
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+      geprueft: false
+
+- nummer: 3
+  titel: "Danke für diesen guten Morgen"
+  links:
+    - typ: spotify
+      url: https://open.spotify.com/track/placeholder
+      geprueft: true
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+      geprueft: false
+
+- nummer: 4
+  titel: "Ich will dir Dank opfern"
+  links: []
+
+- nummer: 5
+  titel: "Komm, Heiliger Geist"
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+      geprueft: false
+
+- nummer: 6
+  titel: "Sonne der Gerechtigkeit"
+  links: []
