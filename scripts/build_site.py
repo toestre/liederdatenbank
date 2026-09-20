@@ -4,6 +4,7 @@ import html
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -18,10 +19,10 @@ PAGE = """<!DOCTYPE html>
 <html lang="de"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title} – Liederdatenbank</title>
-<link rel="stylesheet" href="/style.css"></head>
-<body><nav><a href="/">Liederdatenbank</a>{crumbs}</nav>
+<link rel="stylesheet" href="{base}style.css"></head>
+<body><nav><a href="{base}">Liederdatenbank</a>{crumbs}</nav>
 <main>{body}</main>
-<script src="/search.js" defer></script></body></html>"""
+<script src="{base}search.js" defer></script></body></html>"""
 
 
 def repo_slug():
@@ -32,6 +33,16 @@ def repo_slug():
         return re.sub(r"[^/:]+[:/]([^/:]+/[^/]+?)(\.git)?$", r"\1", url)
     except Exception:
         return "OWNER/liederdatenbank"
+
+
+def base_prefix():
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    if repo and ".github.io" not in repo.split("/", 1)[0]:
+        return "/" + repo.split("/", 1)[1] + "/"
+    return "/"
+
+
+BASE = base_prefix()
 
 
 def slugify(titel):
@@ -55,7 +66,7 @@ def esc(x):
 
 def render_song_page(song, book, others, slug):
     parts = [f"<h1>{esc(song['nummer'])}. {esc(song['titel'])}</h1>",
-             f"<p>Buch: <a href='../index.html'>{esc(book['titel'])}</a> (Nr. {esc(song['nummer'])})</p>"]
+             f"<p>Buch: <a href='index.html'>{esc(book['titel'])}</a> (Nr. {esc(song['nummer'])})</p>"]
     if song.get("alternative_nummer"):
         parts.append(f"<p>Alternative Nummer: {esc(song['alternative_nummer'])}</p>")
     links = song.get("links") or []
@@ -69,13 +80,15 @@ def render_song_page(song, book, others, slug):
                          f"{' ✅' if verified else ' <small>(noch nicht geprüft)</small>'}{note}</li>")
         parts.append("</ul>")
     else:
-        parts.append("<p>Noch keine Links – <a href='../../issues/new?template=link-vorschlagen.md'>Link vorschlagen</a>.</p>")
+        parts.append(f"<p>Noch keine Links – <a href='https://github.com/{repo_slug()}/issues/new?template=link-vorschlagen.md'>Link vorschlagen</a>.</p>")
     if others:
-        refs = ", ".join(f"{esc(b['titel'])} Nr. {esc(o['nummer'])}" for b, o in others)
+        refs = ", ".join(
+            f"<a href='../{b['id']}/{o['nummer']}-{slugify(o['titel'])}.html'>{esc(b['titel'])} Nr. {esc(o['nummer'])}</a>"
+            for b, o in others)
         parts.append(f"<p><em>Dieses Lied steht auch in: {refs}</em></p>")
     edit = f"https://github.com/{repo_slug()}/edit/main/data/songs/{book['id']}.yaml"
     parts.append(f"<p><a href='{edit}'>✏️ In GitHub bearbeiten</a></p>")
-    return PAGE.format(title=f"{song['nummer']} – {song['titel']}", crumbs=f" › <a href='../index.html'>{esc(book['titel'])}</a>", body="\n".join(parts))
+    return PAGE.format(base=BASE, title=esc(f"{song['nummer']} – {song['titel']}"), crumbs=f" › <a href='index.html'>{esc(book['titel'])}</a>", body="\n".join(parts))
 
 
 def build():
@@ -84,6 +97,7 @@ def build():
     if errors:
         print("\n".join(errors)); sys.exit("Abbruch: Daten ungültig, Build verweigert.")
     books, songs = load_all()
+    shutil.rmtree(SITE, ignore_errors=True)
     SITE.mkdir(exist_ok=True)
 
     style = ":root{color-scheme:light}body{font-family:system-ui,sans-serif;margin:0 auto;max-width:48rem;padding:1rem}"
@@ -118,9 +132,9 @@ def build():
                                "buch_titel": book["titel"], "url": f"{book['id']}/{slug}.html"})
         body = f"<h1>{esc(book['titel'])}</h1>{desc}<input data-search placeholder='Suchen (Nummer oder Titel)…'>"
         body += "<table><thead><tr><th>Nr.</th><th>Titel</th></tr></thead><tbody>" + "".join(rows) + "</tbody></table>"
-        (SITE / book["id"] / "index.html").write_text(PAGE.format(title=book["titel"], crumbs="", body=body), encoding="utf-8")
+        (SITE / book["id"] / "index.html").write_text(PAGE.format(base=BASE, title=esc(book["titel"]), crumbs="", body=body), encoding="utf-8")
     index.append("</ul>")
-    (SITE / "index.html").write_text(PAGE.format(title="Start", crumbs="", body="\n".join(index)), encoding="utf-8")
+    (SITE / "index.html").write_text(PAGE.format(base=BASE, title="Start", crumbs="", body="\n".join(index)), encoding="utf-8")
     (SITE / "songs.json").write_text(json.dumps(json_index, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Build ok: {len(json_index)} Lieder, {len(books)} Bücher → {SITE}/")
 
