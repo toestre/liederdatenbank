@@ -3,7 +3,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=KH5RM0d2298&list=RDKH5RM0d2298&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 2
@@ -11,7 +11,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=6zslgTDwpmU&list=RD6zslgTDwpmU&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 3
@@ -19,10 +19,10 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=HhFM0p_j4yM&list=RDHhFM0p_j4yM&start_radio=1"
-      geprueft: false
+      geprueft: true
     - typ: youtube
       url: "https://www.youtube.com/watch?v=8sWr3hRSjiQ&list=RD8sWr3hRSjiQ&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 4
@@ -30,7 +30,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=4hIzi9H8VTY&list=RD4hIzi9H8VTY&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 5
@@ -271,7 +271,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=sCWwm5reGzg&list=RDsCWwm5reGzg&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 52
@@ -762,7 +762,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=ZDXj4AurIoU&list=PL_cslXkouawX9jXe3KYiZhcRlGkkI_5VA&index=7"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 150
@@ -810,7 +810,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=wgdgsBTa6IM&list=PL_cslXkouawX9jXe3KYiZhcRlGkkI_5VA&index=3"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 159
@@ -903,7 +903,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=hf4q1PxxZqM&list=PL_cslXkouawX9jXe3KYiZhcRlGkkI_5VA&index=9"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 177
@@ -951,7 +951,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=SO2NTq3-wys&list=RDSO2NTq3-wys&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 186
@@ -959,7 +959,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=Z5ZtfJRuVG0&list=PL_cslXkouawX9jXe3KYiZhcRlGkkI_5VA&index=15"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 187
@@ -967,7 +967,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=7ppgJr_Uy7w&list=RD7ppgJr_Uy7w&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 188
@@ -975,7 +975,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=S78d1VD7KRM&list=RDS78d1VD7KRM&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 189
@@ -983,7 +983,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=SRBwWpfEQpk&list=RDSRBwWpfEQpk&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 190
@@ -991,7 +991,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=hODMjQINxJQ&list=RDhODMjQINxJQ&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 192
@@ -1037,7 +1037,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=MhgS7oYyiFQ&list=RDMhgS7oYyiFQ&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 200
@@ -1100,7 +1100,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=LWsYQKm_tWM&list=RDLWsYQKm_tWM&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 212
@@ -1108,7 +1108,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=U1u29UPl9XY&list=RDU1u29UPl9XY&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 213
@@ -1116,7 +1116,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=-qRgi7I-758&list=RD-qRgi7I-758&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 214
@@ -1124,7 +1124,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=cbOPJ5kiIhA&list=RDcbOPJ5kiIhA&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 215
@@ -1132,7 +1132,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=pLNlRfyqwWI&list=RDpLNlRfyqwWI&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 216
@@ -1140,7 +1140,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=A9kNlhc6ZiE&list=RDA9kNlhc6ZiE&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 217
@@ -1148,7 +1148,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=ygfyBZ3khro&list=RDygfyBZ3khro&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 218
@@ -1156,7 +1156,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=4EpJlg0-tw4&list=RD4EpJlg0-tw4&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 219
@@ -1164,7 +1164,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=70fTcno-4n4&list=RD70fTcno-4n4&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 220
@@ -1172,7 +1172,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=MiAl2-MqiP8&list=RDMiAl2-MqiP8&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 221
@@ -1215,7 +1215,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=3AcD7P6F-Dc&list=PL_cslXkouawX9jXe3KYiZhcRlGkkI_5VA&index=12"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 229
@@ -1388,7 +1388,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=VQ8aB8W1YNE&list=PL_cslXkouawX9jXe3KYiZhcRlGkkI_5VA&index=8"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 263
@@ -1471,7 +1471,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=5XeMAEgxGGE&list=RD5XeMAEgxGGE&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 279
@@ -1672,7 +1672,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=hZM6PmF-Alo&list=RDhZM6PmF-Alo&start_radio=1"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 319
@@ -2028,7 +2028,7 @@
   links:
     - typ: youtube
       url: "https://www.youtube.com/watch?v=Pfr9Somabqc&list=PL_cslXkouawX9jXe3KYiZhcRlGkkI_5VA&index=14"
-      geprueft: false
+      geprueft: true
 
 
 - nummer: 389
