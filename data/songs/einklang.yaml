@@ -35,7 +35,10 @@
 
 - nummer: 5
   titel: "Kommt, preist und lobet unsern Gott"
-  links: []
+  links:
+    - typ: youtube
+      url: "https://www.youtube.com/watch?v=X2ZqrxKmeuo&list=PL_cslXkouawX9jXe3KYiZhcRlGkkI_5VA&index=11"
+      geprueft: true
 
 
 - nummer: 6
@@ -363,7 +366,10 @@
 
 - nummer: 70
   titel: "Alt’ raues Kreuz"
-  links: []
+  links:
+    - typ: youtube
+      url: "https://www.youtube.com/watch?v=YO5ZhoFGOJU&list=RD4hIzi9H8VTY&index=11"
+      geprueft: true
 
 
 - nummer: 71
@@ -801,7 +807,10 @@
 
 - nummer: 158
   titel: "Christus hält mich fest"
-  links: []
+  links:
+    - typ: youtube
+      url: "https://www.youtube.com/watch?v=wgdgsBTa6IM&list=PL_cslXkouawX9jXe3KYiZhcRlGkkI_5VA&index=3"
+      geprueft: false
 
 
 - nummer: 159
@@ -1017,7 +1026,10 @@
 
 - nummer: 198
   titel: "O, die tiefe Liebe Jesu"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=pnuswSmy81g&list=PL_cslXkouawX9jXe3KYiZhcRlGkkI_5VA&index=4
+      geprueft: true
 
 
 - nummer: 199
@@ -1514,7 +1526,10 @@
 
 - nummer: 289
   titel: "Im Glauben leben"
-  links: []
+  links:
+    - typ: youtube
+      url: "https://www.youtube.com/watch?v=kfY13X9QyjU&list=PL_cslXkouawX9jXe3KYiZhcRlGkkI_5VA&index=2"
+      geprueft: true
 
 
 - nummer: 290
@@ -1862,7 +1877,10 @@
 
 - nummer: 359
   titel: "Aber meine Worte bleiben bestehn"
-  links: []
+  links:
+    - typ: youtube
+      url: "https://www.youtube.com/watch?v=HAlD6p-paqI&list=PL_cslXkouawX9jXe3KYiZhcRlGkkI_5VA&index=1"
+      geprueft: true
 
 
 - nummer: 360
