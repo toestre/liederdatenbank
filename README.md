@@ -21,11 +21,11 @@ Eine datengetriebene Sammlung von Liedquellen für unsere Gemeindecliederbücher
 │       ├── gemeindeheft.yaml   # Lieder des Gemeindehefts
 │       └── loseblatt-2025.yaml # Loseblattsammlung
 ├── scripts/
-│   ├── import_toc.py           # Einmaliger Import: Inhaltsverzeichnis → YAML
-│   ├── fetch_links.py          # Agent: sucht Link-Kandidaten (YouTube/Spotify)
-│   ├── add_link.py             # Ergänzt einen Link zu einem Lied (für Bookmarklet/CLI)
-│   └── validate.py             # Prüft Datenintegrität (läuft auch in CI)
-├── site/                       # Statischer Seitengenerator (Hugo/Eleventy/Astro)
+│   ├── add_link.py              # Ergänzt einen Link zu einem Lied (für Bookmarklet/CLI)
+│   ├── build_site.py            # Statischer Seitengenerator (Pure Python)
+│   ├── fetch_links.py           # Agent: sucht Link-Kandidaten (YouTube/Spotify)
+│   ├── import_toc.py            # Einmaliger Import: Inhaltsverzeichnis → YAML
+│   └── validate.py              # Prüft Datenintegrität (läuft auch in CI)
 └── .github/
     ├── workflows/deploy.yml    # CI: validieren → bauen → deployen
     └── ISSUE_TEMPLATE/
@@ -103,17 +103,17 @@ Zusätzlich prüft der Seitengenerator per Titel-Matching auf Duplikate **über 
 ## Webseite bauen & deployen
 
 ```bash
-# Abhängigkeiten (Beispiel Eleventy)
-npm install
+# Abhängigkeit
+pip install pyyaml
 
-# Lokal entwickeln
-npm run dev
+# Daten prüfen
+python scripts/validate.py
 
-# Bauen
-npm run build   # → site/_site/
+# Lokal bauen (→ _site/, dann z. B. `python -m http.server -d _site` öffnen)
+python scripts/build_site.py
 ```
 
-Deployment: Bei jedem Merge auf `main` baut GitHub Actions die Seite neu und veröffentlicht sie über **GitHub Pages**. Kein Server, keine Kosten, kein manueller Schritt.
+Deployment: Bei jedem Merge auf `main` baut GitHub Actions die Seite neu und veröffentlicht sie über **GitHub Pages** (Einstellung: Settings → Pages → Source: GitHub Actions). Kein Server, keine Kosten, kein manueller Schritt.
 
 ## Rechtliches
 
@@ -124,10 +124,11 @@ Deployment: Bei jedem Merge auf `main` baut GitHub Actions die Seite neu und ver
 ## Roadmap
 
 - [x] Datenmodell für mehrere Liederbücher
+- [x] Platzhalterdaten für alle drei Bücher (echter Import folgt)
+- [x] Statische Seite mit Suche & Buch-/Liedseiten, Deployment via GitHub Pages
 - [ ] Import des Einklang-Inhaltsverzeichnisses
 - [ ] Erster Agent-Durchlauf für Link-Kandidaten (Einklang)
-- [ ] Gemeindeheft & Loseblattsammlung erfassen
-- [ ] Suche & Filter (Nummer, Titel, Buch) auf der Seite
+- [ ] Echte Daten für Gemeindeheft & Loseblattsammlung erfassen
 - [ ] Ggf. Migration auf kanonisches Lied-Modell (ein Lied, mehrere Vorkommen), wenn das Titel-Matching sich bewährt hat
 
 ---
