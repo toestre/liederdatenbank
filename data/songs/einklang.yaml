@@ -1588,7 +1588,10 @@
 
 - nummer: 281
   titel: "Keiner wird zuschanden"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=5cizJbJN6Yc&list=RD5cizJbJN6Yc&start_radio=1
+      geprueft: true
 
 
 - nummer: 282
@@ -1611,7 +1614,10 @@
 
 - nummer: 285
   titel: "Seit ich mit Jesus gehe"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=Ko_qCOmcgF0&list=RDKo_qCOmcgF0&start_radio=1
+      geprueft: true
 
 
 - nummer: 286
@@ -1692,7 +1698,10 @@
 
 - nummer: 300
   titel: "In Christus ist mein ganzer Halt"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=EjCTS5dP5Ro&list=RDEjCTS5dP5Ro&start_radio=1
+      geprueft: true
 
 
 - nummer: 301
@@ -2248,7 +2257,10 @@
 
 - nummer: 408
   titel: "Welch ein Freund ist unser Jesus"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=4DwRuqg0G88&list=RD4DwRuqg0G88&start_radio=1
+      geprueft: true
 
 
 - nummer: 409
