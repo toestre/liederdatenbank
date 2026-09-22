@@ -544,22 +544,34 @@
 
 - nummer: 100
   titel: "Als Zeichen bringt die Jungfrau (Immanuel)"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=Uxfe2GZ6uNE
+      geprueft: true
 
 
 - nummer: 101
   titel: "Auf die dunkle Erde"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=EHWgfDkg30Q
+      geprueft: true
 
 
 - nummer: 102
   titel: "Er kommt in schlichtem Gewande"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=tfQimN-PkUQ
+      geprueft: true
 
 
 - nummer: 103
   titel: "Wie soll ich Dich empfangen"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=vf-CYp776-U
+      geprueft: true
 
 
 - nummer: 104
@@ -579,7 +591,10 @@
 
 - nummer: 107
   titel: "Einsam, still und unverstanden"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=Nwm2wI_e8X8
+      geprueft: true
 
 
 - nummer: 108
@@ -589,7 +604,10 @@
 
 - nummer: 109
   titel: "O Heiland, in Gethsemane"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=DkmuIVrL1Ac
+      geprueft: true
 
 
 - nummer: 110
@@ -599,12 +617,17 @@
 
 - nummer: 111
   titel: "Sie banden Jesu Hände"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=AKIK1M3IvFM
+      geprueft: true
 
 
 - nummer: 112
   titel: "Weizenkorn"
-  links: []
+  links:
+    - typ: youtube
+      url: 
 
 
 - nummer: 113
@@ -649,7 +672,10 @@
 
 - nummer: 121
   titel: "In dem Kreuz liegt die Kraft"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=kFjASx-edcA
+      geprueft: true
 
 
 - nummer: 122
@@ -669,13 +695,19 @@
 
 - nummer: 125
   titel: "O Herr, in welche Leidensnot"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=eZKQ-Y16Fz0
+      geprueft: true
 
 
 - nummer: 126
   titel: "O Haupt, voll Blut und Wunden"
-  links: []
-
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=YjMXfGxPJYQ
+      geprueft: true
+      
 
 - nummer: 127
   titel: "Das Wort vom Kreuz"
@@ -684,7 +716,10 @@
 
 - nummer: 128
   titel: "Seht her, Sein Knecht"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=4A8u2BOIzUs
+      geprueft: true
 
 
 - nummer: 129
@@ -699,7 +734,10 @@
 
 - nummer: 131
   titel: "O Tag der Schmach"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=N3Ek9naZgy4
+      geprueft: true
 
 
 - nummer: 132
@@ -709,7 +747,10 @@
 
 - nummer: 133
   titel: "Seht nur – Jesus, Gottes Lamm"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=0y8uzFP_LFI
+      geprueft: true
 
 
 - nummer: 134
@@ -1535,7 +1576,10 @@
 
 - nummer: 280
   titel: "Mitten in Angst und Leid"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=1P4dyADSe_w&list=RD1P4dyADSe_w&start_radio=1
+      geprueft: true
 
 
 - nummer: 281
