@@ -43,37 +43,58 @@
 
 - nummer: 6
   titel: "Stimmt zu Gottes Ehre froh ein Loblied an!"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=yUcqpww4T6g&list=RDyUcqpww4T6g&start_radio=1
+      geprueft: true
 
 
 - nummer: 7
   titel: "Du, meine Seele, singe"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=C0sSXXIxC0Y&list=RDC0sSXXIxC0Y&start_radio=1
+      geprueft: true
 
 
 - nummer: 8
   titel: "Lobsinget dem Herrn"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=YBpRzgkDm9g&list=RDYBpRzgkDm9g&start_radio=1
+      geprueft: true
 
 
 - nummer: 9
   titel: "Lobt den Herrn! Er ist die Liebe"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=p0celncrbzc&list=PL-eVlYVk0CwTqkMzzF7KCfQizDXaD-GAP&index=7
+      geprueft: false
 
 
 - nummer: 10
   titel: "Wenn Lieder und Worte versagen"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=YqooZXt1IFM&list=RDYqooZXt1IFM&start_radio=1
+      geprueft: true
 
 
 - nummer: 11
   titel: "Lob, meine Seel, den Herrn"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=CGWTM1Rw3TQ&list=RDCGWTM1Rw3TQ&start_radio=1
+      geprueft: true
 
 
 - nummer: 12
   titel: "O lasset uns lobsingen"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=7AMAYpqC4yA&list=RD7AMAYpqC4yA&start_radio=1
+      geprueft: true
 
 
 - nummer: 13
@@ -281,7 +302,10 @@
 
 - nummer: 53
   titel: "Dank, Anbetung, Preis und Ehre"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=twls7cdSX4k&list=PL-eVlYVk0CwTqkMzzF7KCfQizDXaD-GAP&index=17
+      geprueft: true
 
 
 - nummer: 54
@@ -301,7 +325,10 @@
 
 - nummer: 57
   titel: "Ach, wer kann Dich würdig loben"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=dDnWqfe_Fa4&list=PL-eVlYVk0CwTqkMzzF7KCfQizDXaD-GAP&index=4
+      geprueft: true
 
 
 - nummer: 58
@@ -439,7 +466,10 @@
 
 - nummer: 84
   titel: "Dank, o Vater, Deiner Gnade"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=nHa1CjdTEQU&list=PL-eVlYVk0CwTqkMzzF7KCfQizDXaD-GAP&index=27
+      geprueft: true
 
 
 - nummer: 85
@@ -684,7 +714,10 @@
 
 - nummer: 134
   titel: "O Lamm Gottes, unschuldig"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=QUB26JQpgk0&list=PL-eVlYVk0CwTqkMzzF7KCfQizDXaD-GAP&index=5
+      geprueft: true
 
 
 - nummer: 135
@@ -749,7 +782,10 @@
 
 - nummer: 147
   titel: "Jesus lebt! Er hat gesiegt"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=jGB241sNK24&list=PL-eVlYVk0CwTqkMzzF7KCfQizDXaD-GAP&index=9
+      geprueft: true
 
 
 - nummer: 148
@@ -797,7 +833,10 @@
 
 - nummer: 156
   titel: "Du, o Herr, bist hoch erhoben"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=BNnSi6TKVn8&list=PL-eVlYVk0CwTqkMzzF7KCfQizDXaD-GAP&index=29
+      geprueft: true
 
 
 - nummer: 157
@@ -825,7 +864,10 @@
 
 - nummer: 161
   titel: "Wir warten Dein, o Gottes Sohn"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=qVzQAQH824g&list=PL-eVlYVk0CwTqkMzzF7KCfQizDXaD-GAP&index=26
+      geprueft: true
 
 
 - nummer: 162
@@ -845,7 +887,10 @@
 
 - nummer: 165
   titel: "Sel’ge Hoffnung! Du kommst wieder"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=CWzzuYieSFE&list=PL-eVlYVk0CwTqkMzzF7KCfQizDXaD-GAP&index=8
+      geprueft: true
 
 
 - nummer: 166
@@ -1052,7 +1097,10 @@
 
 - nummer: 202
   titel: "Du gabst, o Herr, Dein teures Blut"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=w-iHIkBChbU&list=PL-eVlYVk0CwTqkMzzF7KCfQizDXaD-GAP&index=14
+      geprueft: true
 
 
 - nummer: 203
@@ -1350,7 +1398,10 @@
 
 - nummer: 255
   titel: "O Jesus, Name ohnegleichen"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=DYwoEPB9zlg&list=PL-eVlYVk0CwTqkMzzF7KCfQizDXaD-GAP&index=15
+      geprueft: true
 
 
 - nummer: 256
@@ -1365,7 +1416,10 @@
 
 - nummer: 258
   titel: "Herr Jesus, treuer Hirte"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=fabaZDRVNGY&list=PL-eVlYVk0CwTqkMzzF7KCfQizDXaD-GAP&index=28
+      geprueft: false
 
 
 - nummer: 259
@@ -1491,7 +1545,10 @@
 
 - nummer: 282
   titel: "Es kennt der Herr die Seinen"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=8HiB-Fjf81E&list=PL-eVlYVk0CwTqkMzzF7KCfQizDXaD-GAP&index=16
+      geprueft: true
 
 
 - nummer: 283
@@ -1539,7 +1596,10 @@
 
 - nummer: 291
   titel: "Du bist unsre Zuversicht"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=g9j4zHSvn7A&list=PL-eVlYVk0CwTqkMzzF7KCfQizDXaD-GAP&index=30
+      geprueft: false
 
 
 - nummer: 292
@@ -1727,7 +1787,10 @@
 
 - nummer: 329
   titel: "O Gott, an Deiner Gnade"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=5aGn58qdilM&list=PL-eVlYVk0CwTqkMzzF7KCfQizDXaD-GAP&index=25
+      geprueft: true
 
 
 - nummer: 330
@@ -1827,7 +1890,10 @@
 
 - nummer: 349
   titel: "Wo ist ein Vater, Gott, wie Du"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=J1F5dqvHqYo&list=PL-eVlYVk0CwTqkMzzF7KCfQizDXaD-GAP&index=13
+      geprueft: true
 
 
 - nummer: 350
@@ -1970,7 +2036,10 @@
 
 - nummer: 377
   titel: "Jesus, wahre Lebensquelle"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=r_GD_XrxvEM&list=PL-eVlYVk0CwTqkMzzF7KCfQizDXaD-GAP&index=22
+      geprueft: true
 
 
 - nummer: 378
@@ -2148,7 +2217,10 @@
 
 - nummer: 412
   titel: "Du, Herr, erhörest, wenn wir beten"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=3TjQQJUO9g4&list=PL-eVlYVk0CwTqkMzzF7KCfQizDXaD-GAP&index=20
+      geprueft: true
 
 
 - nummer: 413
@@ -2253,7 +2325,10 @@
 
 - nummer: 433
   titel: "Du, Herr, verlässt mich nicht"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=sFgosOt9N-c&list=PL-eVlYVk0CwTqkMzzF7KCfQizDXaD-GAP&index=3
+      geprueft: true
 
 
 - nummer: 434
