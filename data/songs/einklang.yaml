@@ -627,7 +627,8 @@
   titel: "Weizenkorn"
   links:
     - typ: youtube
-      url: 
+      url: https://www.youtube.com/watch?v=7KpdoagjOjQ&list=RD7KpdoagjOjQ&start_radio=1
+      geprueft: true
 
 
 - nummer: 113
@@ -803,7 +804,10 @@
 
 - nummer: 143
   titel: "Freuet euch, das Grab ist leer!"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=Uw235U0InG4&list=RDUw235U0InG4&start_radio=1
+      geprueft: true
 
 
 - nummer: 144
@@ -1967,7 +1971,10 @@
 
 - nummer: 355
   titel: "Meine Zeit steht in Deinen Händen"
-  links: []
+  links:
+    - typ: youtube
+      url: https://www.youtube.com/watch?v=4VjEKALknLU&list=RD4VjEKALknLU&start_radio=1
+      geprueft: true
 
 
 - nummer: 356
