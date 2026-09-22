@@ -1,0 +1,34 @@
+- buch: "einklang"
+  nummer: 9
+  titel: "Lobt den Herrn! Er ist die Liebe"
+  status: "offen"
+  hinweis: "keine Treffer"
+  vorschlaege: []
+- buch: "einklang"
+  nummer: 13
+  titel: "Lobe den Herren, o meine Seele!"
+  status: "offen"
+  vorschlaege:
+    - url: "https://www.youtube.com/watch?v=xlKsj-N7rGs"
+      suche: "Lobe den Herren o meine Seele Einklang"
+      hinweis: "Mitsingen mit Text, Kirche Singt, EG 303"
+    - url: "https://www.youtube.com/watch?v=gmMk6V6OLik"
+      suche: "Lobe den Herren o meine Seele Einklang"
+      hinweis: "Claudia Sutardhio, exakter Liedtitel, EG 303"
+    - url: "https://www.youtube.com/watch?v=eD7JDlYAk7Y"
+      suche: "Lobe den Herren o meine Seele Einklang"
+      hinweis: "Evangelische Kirchengemeinde St. Nikolai Uebigau, EG 303"
+- buch: "einklang"
+  nummer: 14
+  titel: "O dass ich tausend Zungen hätte"
+  status: "offen"
+  vorschlaege:
+    - url: "https://www.youtube.com/watch?v=cD52PA6uCwQ"
+      suche: "O dass ich tausend Zungen hätte Einklang"
+      hinweis: "detlefkorsen, EG 330, exakter Liedtitel"
+    - url: "https://www.youtube.com/watch?v=DYOm5bNr6SQ"
+      suche: "O dass ich tausend Zungen hätte Einklang"
+      hinweis: "Mitsingen mit Orgelbegleitung, EG 330"
+    - url: "https://www.youtube.com/watch?v=MEaoQw64rts"
+      suche: "O dass ich tausend Zungen hätte Einklang"
+      hinweis: "Emilie Hellum, Fanny Mendelssohn, Kirchenmusik-Kontext"
