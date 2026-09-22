@@ -46,12 +46,10 @@ Aus dem Nutzer-Wortlaut entnehmen (alle optional):
      vorschlaege:
        - url: "https://www.youtube.com/watch?v=..."
          suche: "<nutzter Suchbegriff>"
-         hinweis: "<kurze Beobachtung, z. B. Chor-Aufnahme des Lieds"
+         hinweis: "<kurze Beobachtung, z. B. Chor-Aufnahme des Lieds>"
    ```
 
-   - Keine Treffer oder Suche scheitert: Eintrag mit `vorschlaege: []`
-     und `hinweis: "keine Treffer"` unter `status`-Zeile als eigenes Feld
-     `hinweis: "keine Treffer"` – dann weiter mit dem nächsten Lied.
+   - Keine Treffer oder Suche scheitert: Eintrag mit `vorschlaege: []` und zusätzlichem Feld `hinweis: "keine Treffer"` auf Eintragsebene – dann weiter mit dem nächsten Lied.
    - Die Status-Werte `offen | uebernommen | verworfen` vergibt nur der
      Maintainer beim Review; der Agent schreibt immer `offen`.
 7. YAML schreiben (sauber, doppelte Anführungszeichen für Strings,
