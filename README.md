@@ -23,9 +23,11 @@ Eine datengetriebene Sammlung von Liedquellen für unsere Gemeindecliederbücher
 ├── scripts/
 │   ├── add_link.py              # Ergänzt einen Link zu einem Lied (für Bookmarklet/CLI)
 │   ├── build_site.py            # Statischer Seitengenerator (Pure Python)
-│   ├── fetch_links.py           # Agent: sucht Link-Kandidaten (YouTube/Spotify)
 │   ├── import_toc.py            # Einmaliger Import: Inhaltsverzeichnis → YAML
 │   └── validate.py              # Prüft Datenintegrität (läuft auch in CI)
+├── .opencode/
+│   └── skills/
+│       └── link-kandidaten/     # Agent-Skill: YouTube-Kandidatensuche
 └── .github/
     ├── workflows/deploy.yml    # CI: validieren → bauen → deployen
     └── ISSUE_TEMPLATE/
@@ -83,7 +85,7 @@ Drei Wege – nimm den, der dir am leichtesten fällt:
 
 ### Agent-gestützte Linksuche (Maintainer)
 
-`scripts/fetch_links.py --book einklang` durchsucht YouTube/Spotify-APIs nach Kandidaten für Lieder ohne geprüften Link und schreibt die Treffer nach `candidates.yaml`. **Der Agent entscheidet nicht – er liefert Kandidaten.** Jeder Kandidat wird von Hand angehört, dann erst `geprueft: true`.
+Der Agent ist ein opencode-Skill (`.opencode/skills/link-kandidaten/`). Aufruf in opencode, z. B. »Link-Kandidaten für einklang suchen, 10 Lieder« – er durchsucht YouTube für Lieder ohne geprüften Link und schreibt die Treffer nach `candidates.yaml`. **Der Agent entscheidet nicht – er liefert Kandidaten.** Jeder Kandidat wird von Hand angehört, dann erst `geprueft: true`.
 
 ### Datenänderungen
 
